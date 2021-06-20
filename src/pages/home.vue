@@ -118,6 +118,9 @@
 				<div class="item">
 					<friend></friend>
 				</div>
+				<div class="item">
+					<latest_articles></latest_articles>
+				</div>
 			</el-col>
 		</el-row>
 
@@ -127,11 +130,13 @@
 <script>
 	import friend from '../components/friend'
 	import tag from '../components/tag'
+	import latest_articles from '../components/latest_articles'
 	export default {
 		name: 'home',
 		components: {
 			friend,
-			tag
+			tag,
+			latest_articles
 		}
 	}
 </script>

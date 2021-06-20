@@ -2,14 +2,12 @@
 	<div class="friend">
 		<el-card class="box-card">
 		  <div slot="header" class="d-flex align-items-center">
-		  	<img class="card-icon" src="../assets/lianjie.png"/>
-		    <span>{{$t('friend.friend')}}</span>
-		    <el-button class="ml-auto" style="padding: 3px 0" type="text">
-		    	<router-link to="/apply" tag="span">{{$t('friend.exchange')}}</router-link>
-		    </el-button>
+		  	<i class="el-blog-icon-RectangleCopy"></i>
+		    <span>公告</span>
 		  </div>
-		  <div class="text item"><a href="#">某某的博客</a></div>
-		  <div class="text item"><a href="#">某某的博客</a></div>
+		  <div class="Notice">
+			  新换了个主题，如果发现 BUG 欢迎发邮件 1719545163@qq.com 反馈，不胜感激！
+		  </div>
 		</el-card>
 	</div>
 </template>
@@ -21,16 +19,7 @@ export default {
 </script>
 
 <style scoped>
-.box-card .item a{
-	text-decoration: none;
-	/*color: #F56C6C;*/
-}
-.box-card span{
-	font-weight: bold;
-}
-.card-icon{
-	width: 20px;
-	height: 20px;
-	margin-right: 10px;
+.align-items-center i{
+	font-size: 23px;
 }
 </style>
