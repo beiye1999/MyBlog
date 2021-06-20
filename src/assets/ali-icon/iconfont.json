@@ -1,0 +1,58 @@
+{
+  "id": "2621140",
+  "name": "element-ui",
+  "font_family": "iconfont",
+  "css_prefix_text": "el-blog-icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "11813186",
+      "name": "search",
+      "font_class": "search",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "867564",
+      "name": "Home",
+      "font_class": "home",
+      "unicode": "e68e",
+      "unicode_decimal": 59022
+    },
+    {
+      "icon_id": "8474101",
+      "name": "archive",
+      "font_class": "archive",
+      "unicode": "e698",
+      "unicode_decimal": 59032
+    },
+    {
+      "icon_id": "4766951",
+      "name": "heart",
+      "font_class": "heart",
+      "unicode": "e7df",
+      "unicode_decimal": 59359
+    },
+    {
+      "icon_id": "13253943",
+      "name": "tags-o",
+      "font_class": "tags-o",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "13745128",
+      "name": "Link",
+      "font_class": "Link",
+      "unicode": "e6b2",
+      "unicode_decimal": 59058
+    },
+    {
+      "icon_id": "17412274",
+      "name": "Folder Open",
+      "font_class": "FolderOpen",
+      "unicode": "e67e",
+      "unicode_decimal": 59006
+    }
+  ]
+}
