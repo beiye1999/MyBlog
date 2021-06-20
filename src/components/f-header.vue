@@ -32,6 +32,6 @@ el-menu el-menu-item{
 	font-size: 18px;
 }
 .mr-auto{
-	padding-left: 50px;
+	padding-left: 50px; 
 }
 </style>
