@@ -113,13 +113,22 @@
 			</el-col>
 			<el-col :span="6" class="hidden-sm-and-down" id="side">
 				<div class="item">
-					<tag></tag>
-				</div>
-				<div class="item">
 					<friend></friend>
 				</div>
 				<div class="item">
 					<latest_articles></latest_articles>
+				</div>
+				<div class="item">
+					<classification></classification>
+				</div>
+				<div class="item">
+					<tag></tag>
+				</div>
+				<div class="item">
+					<file></file>
+				</div>
+				<div class="item">
+					<website_information></website_information>
 				</div>
 			</el-col>
 		</el-row>
@@ -128,15 +137,21 @@
 </template>
 
 <script>
+	import tag from '../components/tag'//标签
+	import file from '../components/file'//归档
 	import friend from '../components/friend'
-	import tag from '../components/tag'
-	import latest_articles from '../components/latest_articles'
+	import classification from '../components/classification'
+	import latest_articles from '../components/latest_articles'//最新文章
+	import website_information from '../components/website_information'//网站资讯
 	export default {
 		name: 'home',
 		components: {
 			friend,
 			tag,
-			latest_articles
+			latest_articles,
+			classification,
+			file,
+			website_information
 		}
 	}
 </script>

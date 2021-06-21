@@ -4,9 +4,9 @@
 			<el-menu-item class="mr-auto">贝爷</el-menu-item>
 			<el-menu-item ><i class="el-blog-icon-search"></i>&nbsp;搜索</el-menu-item>
 			<el-menu-item ><i class="el-blog-icon-home"></i>&nbsp;主页</el-menu-item>
-			<el-menu-item ><i class="el-blog-icon-FolderOpen"></i>&nbsp;时间轴</el-menu-item>
+			<el-menu-item ><i class="el-blog-icon-archive"></i>&nbsp;时间轴</el-menu-item>
 			<el-menu-item ><i class="el-blog-icon-tags-o"></i>&nbsp;标签</el-menu-item>
-			<el-menu-item ><i class="el-blog-icon-archive"></i>&nbsp;分类</el-menu-item>
+			<el-menu-item ><i class="el-blog-icon-FolderOpen"></i>&nbsp;分类</el-menu-item>
 			<el-menu-item ><i class="el-blog-icon-Link"></i>&nbsp;友链</el-menu-item>
 			<el-menu-item ><i class="el-blog-icon-heart"></i>&nbsp;关于</el-menu-item>
 		</el-menu>

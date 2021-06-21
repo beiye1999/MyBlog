@@ -2,7 +2,7 @@
 	<div class="latest_articles">
 		<el-card class="box-card">
 			<div slot="header" class="d-flex align-items-center">
-				<i class="el-blog-icon-history"></i>
+				<i class="el-blog-icon-history"></i>&nbsp;
 				<span>最新文章</span>
 			</div>
 			

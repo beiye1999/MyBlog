@@ -2,7 +2,7 @@
 	<div class="friend">
 		<el-card class="box-card">
 		  <div slot="header" class="d-flex align-items-center">
-		  	<i class="el-blog-icon-RectangleCopy"></i>
+		  	<i class="el-blog-icon-RectangleCopy"></i>&nbsp;
 		    <span>公告</span>
 		  </div>
 		  <div class="Notice">
