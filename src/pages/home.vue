@@ -111,7 +111,7 @@
 					</el-pagination>
 				</div>
 			</el-col>
-			<el-col :span="6" class="hidden-sm-and-down" id="side">
+			<el-col :span="6" class="hidden-sm-and-down" id="side" style="width: 24%;">
 				<div class="item">
 					<friend></friend>
 				</div>

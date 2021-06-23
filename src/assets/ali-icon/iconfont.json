@@ -6,6 +6,13 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "8952421",
+      "name": "angle-right",
+      "font_class": "angle-right",
+      "unicode": "e7dc",
+      "unicode_decimal": 59356
+    },
+    {
       "icon_id": "7549835",
       "name": "公告",
       "font_class": "RectangleCopy",
