@@ -64,4 +64,78 @@
 	.align-items-center i {
 		font-size: 23px;
 	}
+
+	.card-category-list-item {
+		padding-left: 10px;
+	}
+
+	.card-category-list {
+		padding-left: 15px;
+		margin: 0px;
+	}
+
+	.card-category-list-item,
+	.card-category-list {
+		list-style-type: none;
+	}
+
+	.card-category-list-item a {
+		width: 100%;
+		display: inline-block;
+		text-decoration: none;
+	}
+
+	.card-category-list-link {
+		height: 34px;
+		line-height: 34px;
+		margin: 2px 0px;
+	}
+
+	.card-category-list-item .card-category-list-count {
+		display: inline-block;
+		float: right;
+	}
+
+	.card-category-list-link,
+	.card-category-list-link-more {
+		color: #737373;
+	}
+
+	.is-center {
+		text-align: center;
+		height: 34px;
+		line-height: 34px;
+	}
+
+	.card-category-list-link:hover,
+	.card-category-list-link-more:hover {
+		background-color: #49b1f5;
+		animation: mymove 3s infinite;
+		-webkit-animation: mymove 3s infinite;
+	}
+
+	@keyframes mymove {
+		0% {
+			transform: scale(1.1);
+			/*开始为原始大小*/
+		}
+
+		50% {
+			transform: scale(1.1);
+		}
+
+		100% {
+			transform: scale(1.1);
+		}
+
+		50% {
+			transform: scale(1.1);
+		}
+
+		0% {
+			transform: scale(1.1);
+			/*开始为原始大小*/
+		}
+
+	}
 </style>
