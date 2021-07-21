@@ -9,11 +9,11 @@
 					<div class="author-info_description">Viewing life with medical ethics</div>
 				</div>
 				<div class="card-info-data">
-					<div class="card-info-data-item card-info-data-item-one is-center"><a href="/archives/">
+					<div class="card-info-data-item  is-center"><a href="/archives/">
 							<div class="headline">文章</div>
 							<div class="length-num">74</div>
 						</a></div>
-					<div class="card-info-data-item  card-info-data-item-two is-center"><a href="/tags/">
+					<div class="card-info-data-item   is-center"><a href="/tags/">
 							<div class="headline">标签</div>
 							<div class="length-num">69</div>
 						</a></div>
@@ -27,11 +27,11 @@
 						href="https://github.com/cunzher"><i class="el-blog-icon-github"
 							style="display: inline-block;padding-right: 8px;"></i><span>Follow Me</span></a>
 				</div>
-				<div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/cunzher"
+				<!-- <div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/cunzher"
 						target="_blank" title="Github"><i class="el-blog-icon-github"></i></a><a class="social-icon"
 						href="mailto:cunzher@163.com" target="_blank" title="Email"><i
 							class="el-blog-icon-envelope"></i></a>
-				</div>
+				</div> -->
 			</div>
 		</el-card>
 	</div>
@@ -63,18 +63,12 @@
 	.author-info_description {
 		font-size: 14px;
 	}
-
-	.card-info-data-item-one {
-		float: left;
-		width: 50px;
+	
+	.card-info-data-item{
 		text-align: center;
-		margin-left: 32px;
-	}
-
-	.card-info-data-item-two {
-		float: left;
-		width: 110px;
-		text-align: center;
+		display: inline-block;
+		width: 33%;
+		
 	}
 
 	.card-info-data {

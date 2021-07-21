@@ -1,49 +1,105 @@
 <template>
 	<div class="about">
-		<el-row class="main" type="flex" justify="center">
-			<el-col :span="16">
-				<h5 class="title"><i class="el-icon-star-on"></i>{{$t('about.aboutMe')}}</h5>
-				<div class="statement">
-					<div class="item">it技术的探索者</div>
-					<div class="item">座右铭：向上的路并不拥挤，而大多数人选择了安逸。</div>
-				</div>
-				<div class="statement">
-					<div class="item">Email：fengziy@aliyun.com</div>
-					<div class="item">QQ：1224971566</div>
-					<div class="item">CSDN：
-						<a target="_blank" href="https://blog.csdn.net/feng_zi_ye">https://blog.csdn.net/feng_zi_ye</a>
+		<el-row :gutter="20">
+			<el-col :span="4">
+				<div class="grid-content bg-purple"></div>
+			</el-col>
+			<el-col :span="16" class="body" style="padding: 0px;">
+				<el-card class="box-card">
+					<div class="grid-content bg-purple-dark">
+						<div class="ui raised teal segment">
+							<div class="ui vertical stackable grid container">
+								<div class="row">
+									<h2 class="ui header aboutMeTitle">关于我</h2>
+								</div>
+								<div class="row introduction">
+									<div class="aboutMe">
+										<div class="item">
+											<span class="span header">个人介绍</span>
+										</div>
+										<div class="item">
+											<span class="itemHeader">个人简介:</span>
+											<div class="itemContent">
+												<p>
+													大三学生，前端写着玩玩，目前主要做后端开发。
+												</p>
+											</div>
+										</div>
+										<div class="item"><span class="itemHeader">擅长技术:</span>
+											<div class="itemContent">
+												<p>掌握javase，javaEE</p>
+												<p>基本掌握spring，springMVC，mybatis，springboot</p>
+												<p>熟练redis，mysql，linux基本命令</p>
+												<p>基本会使用nginx，git，maven</p>
+												<p>熟练使用 html5，css3，jquery，bootstrap，semantic UI开发页面原型</p>
+												<p>熟练使用 ajax，vue.js，shiro，quartz</p>
+											</div>
+										</div>
+									</div>
+									<div class="blog">
+										<div class="item"><span class="span header">博客介绍</span></div>
+										<div class="item"><span class="itemHeader">博客名字:</span> <span
+												class="spanContent">
+												XI溪 </span></div>
+										<div class="item"><span class="itemHeader">博客网址:</span> <span
+												class="spanContent">
+												www.xiaoxuya.top</span></div>
+										<div class="item"><span class="itemHeader">创建时间:</span> <span
+												class="spanContent">
+												2020-11-15</span></div>
+										<div class="item"><span class="itemHeader">博客使用的技术:</span>
+											<div class="itemContent">
+												<p>1、页面原型：html5，css3，js，jQuery，semantic UI，axios，vue.js，还有一些插件</p>
+												<p>2、后端：springboot，mybatis，mysql，redis，shiro，quartz，thymeleaf </p>
+												<p>该个人网站前后端都是我一个人写的，难免有些bug和考虑不周的情况，请见谅。</p>
+											</div>
+										</div>
+									</div>
+									<div class="futurePlan">
+										<div class="item"><span class="span header">我的规划</span></div>
+										<div class="item"><span class="itemHeader">近期规划:</span>
+											<div class="itemContent">
+												<p>1、巩固以前学的技术</p>
+												<p>2、复习数据结构，计算机网络，mysql</p>
+												<p>3、养成定期学习总结的习惯</p>
+												<p>4、将之前定的未完成规划的尽量补上</p>
+												<p>5、多做项目，了解前沿技术</p>
+												<p>6、最近正在学习vue移动端+微信小程序+springboot后台+pc vue前端</p>
+											</div>
+										</div>
+										<div class="item"><span class="itemHeader">长远规划:</span>
+											<div class="itemContent">
+												<p>1、后端开发，持久性学习</p>
+												<p>2、unity游戏开发</p>
+											</div>
+										</div>
+									</div>
+									<div class="logUpdate">
+										<div class="item"><span class="span header">更新日志</span></div>
+										<div class="item">
+											<div class="itemContent">
+												<p>1、页面优化，解决vue表达式闪现问题</p>
+												<p>2、解决mybatis分页拦截器模块，多线程操作共享变量未加锁，数据不一致问题</p>
+												<p>3、优化全局异常统一返回json（mybatis动态代理获取数据异常暂未处理）</p>
+												<p>4、优化统一的json响应接口</p>
+												<p>5、优化redis单注解开发转 注解+手动获取redis数据，统一的redis前缀</p>
+												<p>6、优化redis缓存文章点赞取消点赞功能，由于未开启用户注册功能，取消点赞功能搁置</p>
+												<p>7、优化访问日志，AOP监控全局controller访问</p>
+												<p>8、优化定时任务，统计数据</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row end">
+									<h4>我也是有底线的哦!</h4>
+								</div>
+							</div>
+						</div>
 					</div>
-				</div>
-				<h5 class="title"><i class="el-icon-star-on"></i>{{$t('about.aboutBlog')}}</h5>
-				<el-card shadow="always">
-					<dl class="dl-blog">
-						<dt>{{$t('about.blogSource')}}</dt>
-						<dd>
-							<a target="_blank" href="https://gitee.com/fengziy/Fblog"><img class="icon" src="../assets/mayun.png" alt="码云" /></a>
-						</dd>
-						<dt>{{$t('about.technology')}}</dt>
-						<dd>Vue、Vue-Router、Element-ui、Vue-i18n</dd>
-						<dt>{{$t('about.other')}}</dt>
-						<dd>百度分享、点击爱心特效、复制追加版权信息</dd>
-					</dl>
 				</el-card>
-				<h5 class="title"><i class="el-icon-star-on"></i>{{$t('about.contactMe')}}</h5>
-				<el-card shadow="always">
-					<el-form label-position="left" :rules="rules" label-width="80px" ref="formLabelAlign" :model="formLabelAlign">
-						<el-form-item :label="$t('about.yourName')" prop="name">
-							<el-input v-model="formLabelAlign.name"></el-input>
-						</el-form-item>
-						<el-form-item :label="$t('about.email')" prop="email">
-							<el-input v-model="formLabelAlign.email"></el-input>
-						</el-form-item>
-						<el-form-item :label="$t('about.content')" prop="content">
-							<el-input type="textarea" v-model="formLabelAlign.content"></el-input>
-						</el-form-item>
-						<el-form-item>
-							<el-button type="primary" @click="submitForm('formLabelAlign')">{{$t('about.submit')}}</el-button>
-						</el-form-item>
-					</el-form>
-				</el-card>
+			</el-col>
+			<el-col :span="4">
+				<div class="grid-content bg-purple"></div>
 			</el-col>
 		</el-row>
 	</div>
@@ -54,68 +110,63 @@
 		name: 'about',
 		data() {
 			return {
-				formLabelAlign: {
-					name: '',
-					email: '',
-					content: ''
-				},
-				rules: {
-					name: [{
-						required: true,
-						message: this.$t('about.nameTip'),
-						trigger: 'blur'
-					}],
-					email: [{
-							required: true,
-							message: this.$t('about.emailTip1'),
-							trigger: 'blur'
-						},
-						{
-							type: 'email',
-							message: this.$t('about.emailTip2'),
-							trigger: ['blur', 'change']
-						}
-					],
-					content: [{
-						required: true,
-						message: this.$t('about.contentTip'),
-						trigger: 'blur'
-					}]
-				}
+
 			};
 		},
 		methods: {
-			submitForm(formName) {
-				this.$refs[formName].validate((valid) => {
-					if(valid) {
-						alert('submit!');
-					} else {
-						return false;
-					}
-				});
-			}
+
 		}
 	}
 </script>
 
 <style scoped>
-	.dl-blog dd {
-		margin-left: 30px;
+	.el-row {
+		margin-bottom: 20px;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
 	}
-	
-	.dl-blog .icon {
-		width: 20px;
-		height: 20px;
+
+	.el-col {
+		border-radius: 4px;
 	}
-	
-	.title {
-		margin-top: 40px;
+
+	.grid-content {
+		border-radius: 4px;
+		min-height: 36px;
 	}
-	
-	.statement {
-		border-left: 3px solid #F56C6C;
-		padding: 20px;
-		background-color: #EBEEF5;
-		margin-top: 20px;
+
+	.container h2 {
+		text-align: center;
+		padding-left: 0px;
+	}
+
+	.introduction {
+		padding-left: 20px;
+	}
+
+	.header {
+		font-size: 22px;
+		font-weight: 600;
+		color: #00B5AD;
+	}
+
+	.aboutMe .itemHeader {
+		font-size: 18px;
+		font-weight: 600;
+	}
+
+	.item {
+		padding-bottom: 12px;
+	}
+
+	.end {
+		text-align: center;
+		color: #999999;
+	}
+
+	.body {
+		border-top: 2px solid #00b5ad !important;
 	}
 </style>
