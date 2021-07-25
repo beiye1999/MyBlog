@@ -46,17 +46,4 @@ module.exports = {
     	originalLink: 'Original link',
     	copyright: 'Copyright'
     },
-    apply: {
-    	process: 'Process',
-    	step1: 'Step1',
-    	step2: 'Step2',
-    	step3: 'Step3',
-    	next: 'Next step',
-    	previous: 'Previous',
-    	blogLink: 'Blog\'Link',
-    	nickName: 'Nickname',
-    	introduction: 'Introduction',
-    	email: 'Email',
-    	notes: 'Notes'
-    }
 }

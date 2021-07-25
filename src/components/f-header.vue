@@ -9,7 +9,9 @@
 			<el-menu-item ><i class="el-blog-icon-archive"></i>&nbsp;时间轴</el-menu-item>
 			<el-menu-item ><i class="el-blog-icon-tags-o"></i>&nbsp;标签</el-menu-item>
 			<el-menu-item ><i class="el-blog-icon-FolderOpen"></i>&nbsp;分类</el-menu-item>
-			<el-menu-item ><i class="el-blog-icon-Link"></i>&nbsp;友链</el-menu-item>
+			<el-menu-item >
+				<router-link :to="'friendChain'"><i class="el-blog-icon-Link"></i>&nbsp;友链</router-link>
+			</el-menu-item>
 			<el-menu-item >
 				<router-link :to="'about'"><i class="el-blog-icon-heart"></i>&nbsp;关于</router-link>
 			</el-menu-item>

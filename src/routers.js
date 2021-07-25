@@ -2,7 +2,7 @@ import home from './pages/home'
 import about from './pages/about'
 import article from './pages/article'
 import archive from './pages/archive'
-import apply from './pages/apply'
+import friendChain from './pages/friendChain'
 
 const routes = [
 {
@@ -35,9 +35,9 @@ const routes = [
     component:article
 },
 {
-    path:'/apply',
-    name:'apply',
-    component:apply
+    path:'/friendChain',
+    name:'friendChain',
+    component:friendChain
 },
 {
     path:'*',

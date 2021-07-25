@@ -46,17 +46,5 @@ module.exports = {
     	originalLink: '原文连接',
     	copyright: '版权声明'
     },
-    apply: {
-    	process: '申请流程',
-    	step1: '步骤1',
-    	step2: '步骤2',
-    	step3: '步骤3',
-    	next: '下一步',
-    	previous: '上一步',
-    	blogLink: '博客链接',
-    	nickName: '昵称',
-    	introduction: '介绍',
-    	email: '联系邮箱',
-    	notes: '备注'
-    }
+    
 }
